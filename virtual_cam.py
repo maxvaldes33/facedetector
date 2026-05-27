@@ -1,3 +1,7 @@
+# IMPORTANTE: Seleccionar el intérprete correcto en VS Code antes de ejecutar.
+# Cmd+Shift+P → "Python: Select Interpreter" → elegir el que tenga .pyenv o .venv
+# Si no se selecciona el intérprete correcto, cv2/mediapipe/fer no van a importar.
+
 import cv2
 import numpy as np
 import os
